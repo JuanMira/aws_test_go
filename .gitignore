@@ -1,0 +1,12 @@
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+Procfile
+golangdeploy.pem
+ec2-18-222-134-11.us-east-2.compute.amazonaws.com
+i-0373a2f19c136d051@18.222.134.11
+ubuntu@ec2-18-222-134-11.us-east-2.compute.amazonaws.com
+18.222.134.11
