@@ -47,10 +47,7 @@ pipeline {
             stage('command') {
             steps {
                 script{
-                    sh ''' 
-                       sudo   docker exec  ${name_final} echo 1
-                    '''
-                    }
+                    
                 }                                   
             }
         }
