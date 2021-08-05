@@ -43,13 +43,7 @@ pipeline {
                     '''
                     }
                 }                                  
-            }
-            stage('command') {
-            steps {
-                script{
-                    
-                }                                   
-            }
+            }           
         }
     }
 }
