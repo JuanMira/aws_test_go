@@ -1,5 +1,5 @@
 pipeline {
-  agent {label "server-web"}
+  agent {label "server"}
     parameters {
         string(name: 'name_container', defaultValue: 'qa-go-api-rest', description: 'nombre de la imagen')
         string(name: 'name_imagen', defaultValue: 'qa-go-api-rest', description: 'nombre de la imagen')

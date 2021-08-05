@@ -9,8 +9,7 @@ WORKDIR /go/src
 COPY go.mod .
 RUN go mod download
 COPY . .
-RUN gi build main.go
-
+RUN go build main.go
 FROM scratch
 COPY --from=builder /go/src .
 ENTRYPOINT [ "./main" ]
